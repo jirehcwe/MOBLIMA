@@ -10,16 +10,20 @@ The 4 Object-oriented programming design (OODP) principles (Inheritance, Abstrac
 We started with the flow of the programme (What the customer sees, what the Admin sees and the functions). By identifying the “nouns” in the flow of programme, we are able to identify the different classes required. We then move on to identify the different relationships (has-a, whole/part etc.) that links the different classes. Concurrently, we made sure that the links between the classes do not form a network. High cohesion and low coupling are continuously ensured. After drafting the UML Class and UML Sequence diagrams, we applied SOLID principles to further refine the code and checked that the 4 OODP principles have been applied. Lastly, we went through all the code and inserted relevant exception handlings. 
 
 ### Assumptions
-There will be future plans to modify/expand the code
-There is only one admin/user account 
-The showtime will be within this year
-Age of child: <12 years old
-Age of Elderly: >65 years old
+There will be future plans to modify/expand the code.
+
+There is only one admin/user account.
+
+The showtime will be within this year.
+
+Age of child: <12 years old.
+
+Age of Elderly: >65 years old.
 
 
 # UML Diagrams drawn up for this project
 
-## Main Diagram
+## Main Diagram (Submodules are captured below)
 ![Main UML Diagram](https://github.com/jirehcwe/MOBLIMA/blob/master/UML%20Class%20Diagram%201.jpg "Main UML Diagram")
 
 ## Cineplex, Cinema, CinemaShow, Movies and MovieReview modules
